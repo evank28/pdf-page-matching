@@ -1,11 +1,14 @@
+# PDF Page Matcher
+A Python script to superimpose correct page numbers from a source PDF onto a target PDF that has different pagination.
+
 ## Getting Started
 
 Run `uv sync` to install dependancies. 
 Requires you have installed uv to the global python instance and that it is on the PATH.
 
-## Use Case
+## Usecase
 
-Let's say you buy a book in multiple formats. You have a PDF with page numbers. You have an EPUB that you've converted to a PDF, sizing it perfectly for your e-reader.
+Let's say you have a book in multiple formats. You have a PDF with page numbers. You have an EPUB that you've converted to a PDF, sizing it perfectly for your e-reader.
 
 However, the PDF that originates from an EPUB does not have page numbers, and the default page numbers ("what page within the PDF is it") won't correspond to the page numbers from the original PDF. 
 
